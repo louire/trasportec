@@ -1,0 +1,69 @@
+{
+  "name": "expo-uber",
+  "version": "0.0.1",
+  "description": "Uber: UI Clone with Expo",
+  "author": "Caleb Nance",
+  "license": "MIT",
+  "keywords": [
+    "expo",
+    "react native",
+    "react navigation",
+    "uber"
+  ],
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "dev": "expo start",
+    "start": "expo start",
+    "lint": "eslint ./src",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "0.1.10",
+    "@react-navigation/drawer": "^6.4.1",
+    "@react-navigation/native": "^6.0.10",
+    "@react-navigation/native-stack": "^6.6.2",
+    "expo": "^45.0.0",
+    "expo-asset": "~8.5.0",
+    "expo-barcode-scanner": "~11.3.0",
+    "expo-constants": "~13.1.1",
+    "expo-font": "~10.1.0",
+    "expo-location": "~14.2.2",
+    "expo-splash-screen": "~0.15.1",
+    "expo-updates": "~0.13.1",
+    "prop-types": "^15.7.2",
+    "react": "17.0.2",
+    "react-native": "0.68.1",
+    "react-native-gesture-handler": "~2.2.0",
+    "react-native-maps": "0.30.1",
+    "react-native-reanimated": "~2.8.0",
+    "react-native-safe-area-context": "4.2.4",
+    "react-native-screens": "~3.11.1",
+    "react-native-svg": "12.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "babel-eslint": "^10.1.0",
+    "babel-preset-expo": "~9.1.0",
+    "eslint": "7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-import-helpers": "^1.1.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-react-native": "^3.11.0",
+    "prettier": "^2.4.1"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "none"
+  },
+  "eslintIgnore": [
+    "babel.config.js"
+  ],
+  "private": true
+}
